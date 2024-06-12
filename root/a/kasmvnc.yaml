@@ -1,0 +1,11 @@
+logging:
+  log_writer_name: all
+  log_dest: logfile
+  level: 100
+network:
+  protocol: http
+  interface: 0.0.0.0
+  websocket_port: auto
+  use_ipv4: true
+  ssl:
+    require_ssl: false
